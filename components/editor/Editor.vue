@@ -205,6 +205,7 @@ import Text from '@tiptap/extension-text'
 // import Placeholder from "@tiptap/extension-placeholder";
 
 export default defineComponent({
+  name: 'Editor',
   components: {
     EditorContent,
     BubbleMenu,

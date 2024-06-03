@@ -9,5 +9,5 @@ useHead({
 
 <template>
   <div>编辑器</div>
-  <!-- <Editor /> -->
+  <EEditor />
 </template>

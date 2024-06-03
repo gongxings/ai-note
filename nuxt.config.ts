@@ -22,6 +22,11 @@ export default defineNuxtConfig({
       path: resolve('./components/awesome'),
       global: true,
     },
+    {
+      prefix: 'E',
+      path: resolve('./components/editor'),
+      global: true,
+    },
   ],
   // app config
   app: {
