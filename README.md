@@ -1,6 +1,15 @@
-# Nuxt 3 Minimal Starter
+# Nuxt-note 
+基于nuxt的在线文档编辑
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## 技术栈
+- vue3
+- nuxt3
+- and-design-vue
+- unocss
+- typescript
+- tiptap
+
+
 
 ## Setup
 
