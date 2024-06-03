@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@ant-design-vue/nuxt": "^1.4.1",
+    "@unocss/nuxt": "^0.60.4",
     "nuxt": "^3.10.0",
     "vue": "^3.4.20",
     "vue-router": "^4.3.0"
