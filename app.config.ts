@@ -22,7 +22,7 @@ export interface NuxtAwesomeAppConfig {
       /** navbar */
       navbar?: {
         /** menus in navbar */
-        menus?: AwesomeLayoutPageNavbarMenu[]
+        menus?: []
       }
     }
     /** footer */

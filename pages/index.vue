@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 const { awesome } = useAppConfig()
-definePageMeta({ layout: 'page' })
+definePageMeta({ layout: 'default' })
 useHead({
   titleTemplate: '',
   title: awesome?.name || 'Nuxt 3 Awesome Starter',
@@ -8,6 +8,5 @@ useHead({
 </script>
 
 <template>
-  <div>编辑器</div>
   <EEditor />
 </template>

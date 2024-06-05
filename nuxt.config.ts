@@ -13,16 +13,6 @@ export default defineNuxtConfig({
   plugins: [],
   components: [
     {
-      prefix: 'Layout',
-      path: resolve('./components/layouts'),
-      global: true,
-    },
-    {
-      prefix: 'Awesome',
-      path: resolve('./components/awesome'),
-      global: true,
-    },
-    {
       prefix: 'E',
       path: resolve('./components/editor'),
       global: true,
@@ -33,9 +23,6 @@ export default defineNuxtConfig({
     // global transition
     pageTransition: { name: 'page', mode: 'out-in' },
     layoutTransition: { name: 'layout', mode: 'out-in' },
-  },
-  antd: {
-    // Options
   },
   pinia: {
     storesDirs: ['./stores/**'],
