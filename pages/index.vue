@@ -8,5 +8,7 @@ useHead({
 </script>
 
 <template>
-  <EEditor />
+  <div>
+    <EEditor />
+  </div>
 </template>

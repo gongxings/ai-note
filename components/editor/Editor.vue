@@ -198,9 +198,6 @@ import TableRow from '@tiptap/extension-table-row'
 import TableCell from '@tiptap/extension-table-cell'
 import TableHeader from '@tiptap/extension-table-header'
 import CharacterCount from '@tiptap/extension-character-count'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
 // import Collaboration from "@tiptap/extension-collaboration";
 // import Placeholder from "@tiptap/extension-placeholder";
 
@@ -224,9 +221,6 @@ export default defineComponent({
       content: '<p>I’m running Tiptap with Vue.js. 🎉</p>',
       extensions: [
         StarterKit,
-        Document,
-        Paragraph,
-        Text,
         CharacterCount.configure({
           limit: this.limit,
         }),
