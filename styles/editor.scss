@@ -1,3 +1,6 @@
+
+@import 'scrollbar';
+
 .tools__button {
 	border: 1px solid transparent;
 	box-sizing: border-box;
@@ -59,6 +62,7 @@
 	}
 
 	&-code {
+		height: 400px;
 		user-select: none;
 		background-color: #fff;
 		border: 1px solid #ebeef5;
@@ -72,6 +76,9 @@
 		font-family: sans-serif;
 		line-height: 1.7;
 		overflow-x: auto;
+		overflow-y: auto;
+		scrollbar-width: thin;
+        scrollbar-color: $scrollbar-thumb-bg $scrollbar-bg;
 	}
 
 	.tiptap {

@@ -9,8 +9,24 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@vueuse/nuxt',
     '@nuxt/eslint',
+    '@nuxt/content',
   ],
+  // routeRules: {
+  //   '/docs/': { prerender: true },
+  // },
+  content: {},
   plugins: [],
+  vite: {
+    server: {
+      proxy: {
+        '/dify-api/': {
+          target: 'https://api.dify.ai/v1/',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/dify-api/, ''),
+        },
+      },
+    },
+  },
   components: [
     {
       prefix: 'E',

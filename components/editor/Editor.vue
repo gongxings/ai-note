@@ -21,7 +21,6 @@ import { Color } from '@tiptap/extension-color'
 import TableRow from '@tiptap/extension-table-row'
 import TextStyle from '@tiptap/extension-text-style'
 import Typography from '@tiptap/extension-typography'
-import Dropcursor from '@tiptap/extension-dropcursor'
 import { common, createLowlight } from 'lowlight'
 
 import css from 'highlight.js/lib/languages/css'
@@ -51,7 +50,7 @@ const toggleFullscreen = () => {
 provide('isFullScreen', isFullScreen.value)
 provide('toggleFullscreen', toggleFullscreen)
 
-const valueHtml = ref('<p>I’m running Tiptap with Vue.js. 🎉</p>')
+const valueHtml = ref('')
 const editor = useEditor({
   content: valueHtml.value,
   extensions: [
@@ -74,13 +73,13 @@ const editor = useEditor({
     }),
     Table.configure({
       resizable: true,
+      allowTableNodeSelection: true,
     }),
     TableRow,
     TableHeader,
     CustomTableCell,
     Video,
     Typography,
-    Dropcursor,
   ],
   autofocus: 'end',
 })

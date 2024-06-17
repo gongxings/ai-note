@@ -1,5 +1,6 @@
 <template>
   <div class="editor-tools">
+    <AIButton :editor="editor" />
     <HeaderButton v-model="title" />
     <ImageButton :editor="editor" />
     <VideoButton :editor="editor" />
@@ -27,6 +28,7 @@ import ToolButton from './tool-button.vue'
 import { getMarkRange, Editor } from '@tiptap/core'
 import { TextSelection, AllSelection } from '@tiptap/pm/state'
 import '/styles/editor.scss'
+import '/styles/scrollbar.scss'
 import '/styles/reset.scss'
 
 import {
@@ -59,6 +61,7 @@ import TableButton from './table-button.vue'
 import LinkButton from './link-button.vue'
 import FontColor from './font-color.vue'
 import BgColor from './bg-color.vue'
+import AIButton from './ai-button.vue'
 
 import { ref, reactive, defineComponent, inject, watch } from 'vue'
 
@@ -308,6 +311,7 @@ export default defineComponent({
     OrderedListOutlined,
     FontColor,
     BgColor,
+    AIButton,
   },
 })
 </script>

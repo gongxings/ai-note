@@ -9,8 +9,8 @@ useHead({
 
 <template>
   <Body class="bg-white text-gray-800 duration-300 dark:bg-gray-950 dark:text-gray-200">
+    <NuxtLoadingIndicator />
     <NuxtLayout>
-      <NuxtLoadingIndicator />
       <NuxtPage />
     </NuxtLayout>
   </Body>
