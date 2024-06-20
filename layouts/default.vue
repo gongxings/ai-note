@@ -14,7 +14,7 @@
           <a-breadcrumb-item>List</a-breadcrumb-item>
           <a-breadcrumb-item>App</a-breadcrumb-item>
         </a-breadcrumb> -->
-          <a-layout-content :style="{ background: '#fff', padding: '24px', margin: 0 }">
+          <a-layout-content :style="{ background: '#fff', padding: '4px', margin: 0 }">
             <slot />
           </a-layout-content>
         </a-layout>
