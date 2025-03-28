@@ -1,7 +1,7 @@
 # Nuxt-note 
-»ùÓÚnuxtµÄÔÚÏßÎÄµµ±à¼­
+åŸºäºnuxtçš„åœ¨çº¿æ–‡æ¡£ç¼–è¾‘
 
-## ¼¼ÊõÕ»
+## æŠ€æœ¯æ ˆ
 - vue3
 - nuxt3
 - and-design-vue
@@ -80,5 +80,8 @@ yarn preview
 # bun
 bun run preview
 ```
+
+![image](https://github.com/user-attachments/assets/7899c104-b06e-40ad-bb6e-0f343545f769)
+
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
