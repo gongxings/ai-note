@@ -1,6 +1,8 @@
 # Nuxt-note 
 基于nuxt的在线文档编辑
 
+![image](https://github.com/user-attachments/assets/7899c104-b06e-40ad-bb6e-0f343545f769)
+
 ## 技术栈
 - vue3
 - nuxt3
@@ -80,8 +82,6 @@ yarn preview
 # bun
 bun run preview
 ```
-
-![image](https://github.com/user-attachments/assets/7899c104-b06e-40ad-bb6e-0f343545f769)
 
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
